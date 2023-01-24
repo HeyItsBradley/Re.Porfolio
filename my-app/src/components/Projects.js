@@ -3,78 +3,47 @@ import "../styles/projects.css";
 import Github from "../assets/Github.png";
 
 function Projects() {
+  const projectArr = [
+    {
+      title: "Dev.log",
+      href: "https://github.com/btempini/dev-log",
+    },
+    {
+      title: "DevDive",
+      href: "https://github.com/BluSkreen/DevDive",
+    },
+    {
+      title: "National Park Finder",
+      href: "https://github.com/HeyItsBradley/National-Park-Finder-with-Directions",
+    },
+    {
+      title: "Valorant Agents",
+      href: "https://github.com/HeyItsBradley/Valorant-Agents",
+    },
+    {
+      title: "Weather Dashboard",
+      href: "https://github.com/HeyItsBradley/Weather-Dashboard",
+    },
+    {
+      title: "Text Editor",
+      href: "https://github.com/HeyItsBradley/Text-Editor",
+    },
+    {
+      title: "Password Generator",
+      href: "https://github.com/HeyItsBradley/RandomPasswordGenerator",
+    },
+  ];
   return (
     <ul className="list">
-      <li className="newFont project">
-        Dev.Log
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href="https://github.com/btempini/dev-log"
-        >
-          <img className="github" src={Github} alt="github icon" />
-        </a>
-      </li>
-      <li className="newFont project">
-        DevDive
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href="https://github.com/BluSkreen/DevDive"
-        >
-          <img className="github" src={Github} alt="github icon" />
-        </a>
-      </li>
-      <li className="newFont project">
-        National Park Finder
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href="https://github.com/HeyItsBradley/National-Park-Finder-with-Directions"
-        >
-          <img className="github" src={Github} alt="github icon" />
-        </a>
-      </li>
-      <li className="newFont project">
-        Agent Select
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href="https://github.com/HeyItsBradley/Valorant-Agents"
-        >
-          <img className="github" src={Github} alt="github icon" />
-        </a>
-      </li>
-      <li className="newFont project">
-        Text Editor
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href="https://github.com/HeyItsBradley/Text-Editor"
-        >
-          <img className="github" src={Github} alt="github icon" />
-        </a>
-      </li>
-      <li className="newFont project">
-        Weather Dashboard
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href="https://github.com/HeyItsBradley/Weather-Dashboard"
-        >
-          <img className="github" src={Github} alt="github icon" />
-        </a>
-      </li>
-      <li className="newFont project">
-        Password Generator
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href="https://github.com/HeyItsBradley/RandomPasswordGenerator"
-        >
-          <img className="github" src={Github} alt="github icon" />
-        </a>
-      </li>
+      {projectArr &&
+        projectArr.map((project) => (
+          <li className="newFont project">
+            {project.title}
+            <a target="_blank" rel="noreferrer" href={project.href}>
+              <img className="github" src={Github} alt="github icon" />
+            </a>
+          </li>
+        ))}
     </ul>
   );
 }
