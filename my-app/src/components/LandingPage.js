@@ -24,6 +24,7 @@ function LandingPage() {
         break;
     }
   }, [location]);
+  const linkClassName = "link-text";
 
   return (
     <>
@@ -31,18 +32,23 @@ function LandingPage() {
       <h3 className="title">Full Stack Dev</h3>
       <br></br>
       <ul className="linkUl">
-        <Link to={"/"}>
-          <li className="links">Home</li>
-        </Link>
-        <Link to={"/resume"}>
-          <li className="links">Resume</li>
-        </Link>
-        <Link to={"/projects"}>
-          <li className="links">Projects</li>
-        </Link>
-        <Link to={"/contact"}>
-          <li className="links">Contact </li>
-        </Link>
+        <li className="links">
+          <Link to={"/"}>Home</Link>
+        </li>
+
+        <li className="links">
+          <Link to={"/resume"}>Resume</Link>
+        </li>
+
+        <li className="links">
+          {" "}
+          <Link to={"/projects"}>Projects</Link>
+        </li>
+
+        <li className="links">
+          {" "}
+          <Link to={"/contact"}>Contact</Link>{" "}
+        </li>
       </ul>
     </>
   );

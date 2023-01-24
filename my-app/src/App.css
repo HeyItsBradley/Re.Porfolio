@@ -27,6 +27,7 @@
 .linkUl {
   padding-top: 100px;
   padding-left: 80px;
+  width: fit-content;
 }
 
 .links {
