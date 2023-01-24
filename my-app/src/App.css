@@ -16,10 +16,12 @@
   font-size: 4rem;
   font-weight: 100;
   margin-bottom: 0;
+  font-family: "Rajdhani", sans-serif;
 }
 .title {
   color: white;
   padding-left: 80px;
+  font-family: "Rajdhani", sans-serif;
 }
 
 ul {
@@ -35,6 +37,7 @@ li {
   font-size: 1.2rem;
   transition: all 500ms;
   z-index: 6;
+  font-family: "Rajdhani", sans-serif;
 }
 
 li:hover {
@@ -43,12 +46,12 @@ li:hover {
   color: rgb(255, 255, 255);
 }
 
-span {
+.aboutSpan {
   position: relative;
-  font-size: 1.5rem;
-  top: 9em;
-
-  padding-left: 1450px;
+  font-size: 1.8rem;
+  top: 6em;
+  font-family: "Rajdhani", sans-serif;
+  padding-left: 1400px;
 }
 
 .center-box:before {
