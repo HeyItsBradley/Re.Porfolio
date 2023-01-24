@@ -46,12 +46,16 @@ li:hover {
   color: rgb(255, 255, 255);
 }
 
+.underline {
+  text-decoration: underline;
+}
+
 .aboutSpan {
   position: relative;
   font-size: 1.8rem;
   top: 6em;
   font-family: "Rajdhani", sans-serif;
-  padding-left: 1400px;
+  padding-left: 70%;
 }
 
 .center-box:before {

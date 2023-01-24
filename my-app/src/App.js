@@ -5,6 +5,7 @@ import "./App.css";
 import AboutMe from "./components/AboutMe";
 import Projects from "./components/Projects";
 import ContactMe from "./components/ContactMe";
+import Resume from "./components/Resume";
 
 function App() {
   return (
@@ -12,7 +13,9 @@ function App() {
       <LandingPage />
       <Routes>
         <Route path="/" element={<AboutMe />} />
+        <Route path="/resume" element={<Resume />} />
         <Route path="/projects" element={<Projects />} />
+        <Route path="/contact" element={<ContactMe />} />
       </Routes>
       <div className="center-box">
         <div className="bg"></div>
