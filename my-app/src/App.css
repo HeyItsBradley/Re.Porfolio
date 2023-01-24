@@ -50,12 +50,18 @@ li:hover {
   text-decoration: underline;
 }
 
+a {
+  text-decoration: none; /* Removes the underline */
+  color: inherit; /* Inherits the color from the parent element */
+}
+
 .aboutSpan {
   position: relative;
   font-size: 1.8rem;
   top: 6em;
   font-family: "Rajdhani", sans-serif;
   padding-left: 70%;
+  color: rgb(255, 255, 255);
 }
 
 .center-box:before {

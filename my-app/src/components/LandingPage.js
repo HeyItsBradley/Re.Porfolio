@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import "../App.css";
 
 function LandingPage() {
@@ -7,6 +7,7 @@ function LandingPage() {
 
   useEffect(() => {
     const li = document.querySelectorAll("li");
+    li.forEach((el) => el.classList.remove("underline")); // remove underline from all li elements
 
     switch (location.pathname) {
       case "/":
@@ -24,17 +25,24 @@ function LandingPage() {
     }
   }, [location]);
 
-  //todo: if url = "/" add a "-" character behind the home li
   return (
     <>
       <h1 className="name">Bradley Rodriguez</h1>
       <h3 className="title">Full Stack Dev</h3>
       <br></br>
       <ul>
-        <li>Home</li>
-        <li>Resume</li>
-        <li>Projects</li>
-        <li>Contact </li>
+        <Link to={"/"}>
+          <li>Home</li>
+        </Link>
+        <Link to={"/resume"}>
+          <li>Resume</li>
+        </Link>
+        <Link to={"/projects"}>
+          <li>Projects</li>
+        </Link>
+        <Link to={"/contact"}>
+          <li>Contact </li>
+        </Link>
       </ul>
     </>
   );
