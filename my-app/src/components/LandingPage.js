@@ -24,7 +24,6 @@ function LandingPage() {
         break;
     }
   }, [location]);
-  const linkClassName = "link-text";
 
   return (
     <>
