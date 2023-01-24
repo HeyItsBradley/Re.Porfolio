@@ -30,18 +30,18 @@ function LandingPage() {
       <h1 className="name">Bradley Rodriguez</h1>
       <h3 className="title">Full Stack Dev</h3>
       <br></br>
-      <ul>
+      <ul className="linkUl">
         <Link to={"/"}>
-          <li>Home</li>
+          <li className="links">Home</li>
         </Link>
         <Link to={"/resume"}>
-          <li>Resume</li>
+          <li className="links">Resume</li>
         </Link>
         <Link to={"/projects"}>
-          <li>Projects</li>
+          <li className="links">Projects</li>
         </Link>
         <Link to={"/contact"}>
-          <li>Contact </li>
+          <li className="links">Contact </li>
         </Link>
       </ul>
     </>
