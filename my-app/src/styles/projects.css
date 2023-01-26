@@ -25,6 +25,8 @@
 }
 .github {
   height: 25px;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .project img.github {
@@ -48,7 +50,16 @@
 .preview {
   margin-top: 3%;
   opacity: 1;
-  height: 200px;
+  height: 300px;
   border: 1px solid white;
   margin-left: 0%;
+}
+
+.selected {
+  text-decoration: underline;
+}
+
+.github-visible {
+  display: inline-block;
+  opacity: 1;
 }

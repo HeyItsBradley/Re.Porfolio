@@ -1,0 +1,15 @@
+.newFont {
+  font-family: "Rajdhani", sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: 100;
+}
+
+.contact {
+  position: relative;
+  margin-left: 80%;
+}
+
+.icon {
+  display: inline-block;
+  vertical-align: middle;
+}

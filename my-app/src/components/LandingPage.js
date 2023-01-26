@@ -27,7 +27,9 @@ function LandingPage() {
 
   return (
     <>
-      <h1 className="name">Bradley Rodriguez</h1>
+      <h1 className="name">
+        <Link to={"/"}>Bradley Rodriguez</Link>
+      </h1>
       <h3 className="title">Full Stack Dev</h3>
       <br></br>
       <ul className="linkUl">
