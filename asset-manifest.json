@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Re.Portfolio/static/css/main.0df240f4.css",
+    "main.js": "/Re.Portfolio/static/js/main.68b0afe9.js",
+    "static/media/parkFinder.png": "/Re.Portfolio/static/media/parkFinder.503a34d07db3f5ecb612.png",
+    "static/media/devLog.png": "/Re.Portfolio/static/media/devLog.4b6e6c9fdaa6a35b9b34.png",
+    "static/media/agents.png": "/Re.Portfolio/static/media/agents.6240a2f43be2821144d7.png",
+    "static/media/devDive.png": "/Re.Portfolio/static/media/devDive.64d721e8adbe56f6abc5.png",
+    "static/media/weather.png": "/Re.Portfolio/static/media/weather.c730b6aeb63b97c93e29.png",
+    "static/media/BradleyRodriguezResume.pdf": "/Re.Portfolio/static/media/BradleyRodriguezResume.0722b860b53921a3cca1.pdf",
+    "static/media/textEditor.png": "/Re.Portfolio/static/media/textEditor.347227ca417854577380.png",
+    "static/media/password.png": "/Re.Portfolio/static/media/password.40ef900536f7e4aced62.png",
+    "static/media/placeholder.png": "/Re.Portfolio/static/media/placeholder.136ef7c4f063bb36e949.png",
+    "static/media/logo.svg": "/Re.Portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Re.Portfolio/index.html",
+    "main.0df240f4.css.map": "/Re.Portfolio/static/css/main.0df240f4.css.map",
+    "main.68b0afe9.js.map": "/Re.Portfolio/static/js/main.68b0afe9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0df240f4.css",
+    "static/js/main.68b0afe9.js"
+  ]
+}
