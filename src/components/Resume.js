@@ -12,7 +12,7 @@ function Resume() {
         </a>
       </h2>
       <p className="newFont header">Technology:</p>
-      <ul>
+      <ul className="tecList">
         <li className="li newFont">MongoDB</li>
         <li className="li newFont">Express</li>
         <li className="li newFont">React</li>

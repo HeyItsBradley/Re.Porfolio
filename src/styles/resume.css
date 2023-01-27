@@ -18,3 +18,61 @@
   margin-left: 82%;
   font-size: 20px;
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  /* styles for small screens go here */
+  .newFont {
+    font-family: "Rajdhani", sans-serif;
+    color: rgb(255, 255, 255);
+  }
+
+  .download {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    margin-left: 0%;
+    font-weight: 100;
+    text-decoration: underline;
+  }
+  .li {
+    margin-left: 0%;
+    font-weight: 100;
+    font-size: larger;
+    text-decoration: dotted;
+  }
+  .tecList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+
+  .header {
+    display: flex;
+    justify-content: center;
+    margin-left: 0%;
+    font-size: 20px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  /* styles for medium screens go here */
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  /* styles for large screens go here */
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  /* styles for extra-large screens go here */
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  /* styles for extra-extra-large screens go here */
+}
