@@ -1,11 +1,16 @@
 import React from "react";
+import resume from "../assets/BradleyRodriguezResume.pdf";
 
 import "../styles/resume.css";
 
 function Resume() {
   return (
     <>
-      <h2 className="newFont download">Download Resume</h2>
+      <h2 className="newFont download" hre>
+        <a target={"_blank"} rel="noreferrer" href={resume}>
+          Download Resume
+        </a>
+      </h2>
       <p className="newFont header">Technology:</p>
       <ul>
         <li className="li newFont">MongoDB</li>
