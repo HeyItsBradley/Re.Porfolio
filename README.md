@@ -17,7 +17,7 @@ A portfolio made by Bradley. Includes an about/landing page, resume, project, an
 To install necessary depenencies, run the follwing command:
 
 ```md
-If you wish to install the app, fork it, run npm i, then npm run start.
+npm i, npm run start.
 ```
 
 ## Usage
