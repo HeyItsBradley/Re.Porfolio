@@ -171,7 +171,7 @@ body {
     align-items: center;
     padding-top: 0px;
     padding-left: 0vw;
-    /* width: fit-content; */
+    width: auto;
     justify-content: space-evenly;
   }
 
@@ -187,8 +187,14 @@ body {
     font-size: 1.3rem;
     top: 10em;
     font-family: "Rajdhani", sans-serif;
-    padding-left: 10%;
+    padding-left: 0%;
     color: rgb(255, 255, 255);
+  }
+  .spanContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
   }
 }
 
