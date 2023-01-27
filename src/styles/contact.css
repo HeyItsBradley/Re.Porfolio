@@ -13,3 +13,47 @@
   display: inline-block;
   vertical-align: middle;
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  /* styles for small screens go here */
+  .newFont {
+    font-family: "Rajdhani", sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+  }
+
+  .contact {
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+    align-items: center;
+    position: relative;
+    margin-left: 0%;
+  }
+
+  .icon {
+    display: inline-block;
+    vertical-align: middle;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  /* styles for medium screens go here */
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  /* styles for large screens go here */
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  /* styles for extra-large screens go here */
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  /* styles for extra-extra-large screens go here */
+}
