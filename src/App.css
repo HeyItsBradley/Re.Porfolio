@@ -1,3 +1,7 @@
+:root {
+  --pad: max(20px, 4vmin);
+}
+
 .center-box {
   position: absolute;
   top: 0;
@@ -8,6 +12,16 @@
   align-items: center;
   justify-content: center;
   z-index: -5;
+}
+.center-box:before {
+  content: "";
+  width: calc(100% - 100px);
+  height: calc(100% - 100px);
+  border: 1px solid white;
+  box-sizing: border-box;
+
+  margin: -8px;
+  z-index: -1;
 }
 .name {
   padding-left: 80px;
@@ -57,23 +71,20 @@ a {
 
 .aboutSpan {
   position: relative;
-  font-size: 1.8rem;
-  top: 6em;
+  font-size: 1.8em;
+  /* top: 6em; */
   font-family: "Rajdhani", sans-serif;
-  padding-left: 70%;
+  /* padding-left: 65vw; */
   color: rgb(255, 255, 255);
 }
 
-.center-box:before {
-  content: "";
-  width: calc(100% - 100px);
-  height: calc(100% - 100px);
-  border: 1px solid white;
-  box-sizing: border-box;
-
-  margin: -8px;
-  z-index: -1;
+.spanContainer {
+  position: absolute;
+  right: calc(var(--pad) * 2);
+  right: calc(var(--pad) * 2);
+  bottom: calc(var(--pad) * 1.7);
 }
+
 body {
   background-color: #1d1d1d;
   margin: 0;
