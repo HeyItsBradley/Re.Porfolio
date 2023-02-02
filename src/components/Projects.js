@@ -9,6 +9,7 @@ import weather from "../assets/weather.png";
 import textEditor from "../assets/textEditor.png";
 import password from "../assets/password.png";
 import placeHolder from "../assets/placeholder.png";
+import externalLink from "../assets/externalLink.png";
 
 function Projects() {
   const [previewImg, setPreviewImg] = useState(placeHolder);
@@ -16,43 +17,43 @@ function Projects() {
   const [previewLink, setPreviewLink] = useState("");
   const projectArr = [
     {
-      title: "Dev.log",
+      title: "Dev.log  ",
       href: "https://github.com/btempini/dev-log",
       link: "https://dev-log.herokuapp.com/",
       image: devLog,
     },
     {
-      title: "DevDive",
+      title: "DevDive  ",
       href: "https://github.com/BluSkreen/DevDive",
       link: "https://dev-dive.herokuapp.com/",
       image: devDive,
     },
     {
-      title: "National Park Finder",
+      title: "National Park Finder  ",
       href: "https://github.com/HeyItsBradley/National-Park-Finder-with-Directions",
       link: "https://heyitsbradley.github.io/National-Park-Finder-with-Directions/",
       image: parkFinder,
     },
     {
-      title: "Valorant Agents",
+      title: "Valorant Agents  ",
       href: "https://github.com/HeyItsBradley/Valorant-Agents",
       link: "https://heyitsbradley.github.io/Valorant-Agents/",
       image: agents,
     },
     {
-      title: "Weather Dashboard",
+      title: "Weather Dashboard  ",
       href: "https://github.com/HeyItsBradley/Weather-Dashboard",
       link: "https://heyitsbradley.github.io/Weather-Dashboard/",
       image: weather,
     },
     {
-      title: "Text Editor(PWA)",
+      title: "Text Editor(PWA)  ",
       href: "https://github.com/HeyItsBradley/Text-Editor",
       link: "https://bradleys-text-editor.herokuapp.com/",
       image: textEditor,
     },
     {
-      title: "Password Generator",
+      title: "Password Generator  ",
       href: "https://github.com/HeyItsBradley/RandomPasswordGenerator",
       link: "https://heyitsbradley.github.io/RandomPasswordGenerator/",
       image: password,
@@ -60,7 +61,8 @@ function Projects() {
   ];
   return (
     <div className="container">
-      <a href={previewLink} target="_blank" rel="noreferrer">
+      <a href={previewLink} target="_blank" rel="noreferrer" className="imgDiv">
+        <img className="link" src={externalLink} alt={"External link Icon"} />
         <img className="preview" src={previewImg} alt={"Project Preview"} />
       </a>
       <ul className="list">

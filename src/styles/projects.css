@@ -1,3 +1,11 @@
+.imgDiv {
+  position: relative;
+}
+.link {
+  position: absolute;
+  top: 85%;
+  width: 7%;
+}
 .newFont {
   font-family: "Rajdhani", sans-serif;
   color: rgb(255, 255, 255);
@@ -5,6 +13,7 @@
 
 .project {
   position: relative;
+
   font-size: 2.3rem;
   transition: all 500ms;
   z-index: 6;
@@ -53,6 +62,7 @@
   height: 300px;
   border: 1px solid white;
   margin-left: 0%;
+  opacity: 50%;
 }
 
 .selected {
