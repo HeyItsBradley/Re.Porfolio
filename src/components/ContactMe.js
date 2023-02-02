@@ -4,7 +4,7 @@ import externalLink from "../assets/externalLink.png";
 
 function ContactMe() {
   return (
-    <>
+    <div className="linkContainer">
       <h2 className="newFont contact">
         <img src={externalLink} className="icon" alt="external link Icon" />
         <a
@@ -39,7 +39,7 @@ function ContactMe() {
           Email
         </a>
       </h2>
-    </>
+    </div>
   );
 }
 
