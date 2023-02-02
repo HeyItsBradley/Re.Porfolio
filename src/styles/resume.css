@@ -1,21 +1,30 @@
+:root {
+  --pad: max(20px, 4vmin);
+}
 .newFont {
   font-family: "Rajdhani", sans-serif;
   color: rgb(255, 255, 255);
 }
+.containerDiv {
+  position: absolute;
+
+  right: calc(var(--pad) * 4);
+  bottom: calc(var(--pad) * 1.7);
+}
 
 .download {
-  margin-left: 80%;
+  /* margin-left: 80%; */
   font-weight: 100;
   text-decoration: underline;
 }
 .li {
-  margin-left: 82%;
+  /* margin-left: 82%; */
   font-weight: 100;
   font-size: larger;
 }
 
 .header {
-  margin-left: 82%;
+  /* margin-left: 82%; */
   font-size: 20px;
 }
 
@@ -25,6 +34,12 @@
   .newFont {
     font-family: "Rajdhani", sans-serif;
     color: rgb(255, 255, 255);
+  }
+  .containerDiv {
+    position: initial;
+
+    right: initial;
+    bottom: initial;
   }
 
   .download {

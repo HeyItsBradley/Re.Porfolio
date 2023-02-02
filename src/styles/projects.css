@@ -1,3 +1,7 @@
+:root {
+  --pad: max(20px, 4vmin);
+}
+
 .imgDiv {
   position: relative;
 }
@@ -29,8 +33,9 @@
 
 .list {
   position: absolute;
-  margin-left: 70%;
-  width: fit-content;
+
+  right: calc(var(--pad) * 4);
+  bottom: calc(var(--pad) * 1.7);
 }
 .github {
   height: 25px;
@@ -59,7 +64,7 @@
 .preview {
   margin-top: 3%;
   opacity: 1;
-  height: 300px;
+  width: 30vw;
   border: 1px solid white;
   margin-left: 0%;
   opacity: 50%;
@@ -77,19 +82,23 @@
 @media only screen and (max-width: 600px) {
   /* styles for small screens go here */
   .preview {
-    margin-top: 100%;
+    top: 40vh;
     opacity: 50%;
-    height: 150px;
+    width: 70vw;
     border: 1px solid white;
     margin-left: 0%;
   }
   .list {
     display: flex;
     flex-direction: column;
+
     align-items: center;
     position: absolute;
     margin-left: 0;
     padding: 0;
+    right: initial;
+    bottom: initial;
+    top: 100vw;
   }
   .project {
     position: relative;
@@ -110,7 +119,7 @@
   }
   .link {
     position: absolute;
-    top: 94%;
+    top: 91%;
     width: 7%;
   }
 }

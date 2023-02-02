@@ -5,10 +5,10 @@ import "../styles/resume.css";
 
 function Resume() {
   return (
-    <>
+    <div className="containerDiv">
       <h2 className="newFont download" hre>
         <a target={"_blank"} rel="noreferrer" href={resume}>
-          Download Resume
+          <p>Download Resume</p>
         </a>
       </h2>
       <p className="newFont header">Technology:</p>
@@ -24,7 +24,7 @@ function Resume() {
         <li className="li newFont">GraphQL</li>
         <li className="li newFont">Apollo</li>
       </ul>
-    </>
+    </div>
   );
 }
 
