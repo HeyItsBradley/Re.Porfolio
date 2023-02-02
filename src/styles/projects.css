@@ -78,7 +78,7 @@
   /* styles for small screens go here */
   .preview {
     margin-top: 100%;
-    opacity: 1;
+    opacity: 50%;
     height: 150px;
     border: 1px solid white;
     margin-left: 0%;
@@ -104,6 +104,14 @@
     font-size: 2rem;
     font-size-adjust: 10px;
     color: rgb(255, 255, 255);
+  }
+  .imgDiv {
+    position: relative;
+  }
+  .link {
+    position: absolute;
+    top: 94%;
+    width: 7%;
   }
 }
 
