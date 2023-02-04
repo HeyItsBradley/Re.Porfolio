@@ -7,8 +7,9 @@
 }
 .link {
   position: absolute;
-  top: 85%;
-  width: 7%;
+  bottom: 2%;
+  left: 0;
+  width: 2vw;
 }
 .newFont {
   font-family: "Rajdhani", sans-serif;
@@ -119,8 +120,9 @@
   }
   .link {
     position: absolute;
-    top: 91%;
-    width: 7%;
+    bottom: 2%;
+    left: 0;
+    width: 6vw;
   }
 }
 

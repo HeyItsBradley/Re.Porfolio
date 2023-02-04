@@ -15,8 +15,8 @@
 
 .linkContainer {
   position: absolute;
-
-  right: calc(var(--pad) * 4);
+  display: inline-block;
+  right: calc(var(--pad) * 10);
   bottom: calc(var(--pad) * 1.7);
 }
 
