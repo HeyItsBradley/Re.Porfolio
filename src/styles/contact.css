@@ -15,12 +15,14 @@
 
 .linkContainer {
   position: absolute;
-  display: inline-block;
+
   right: calc(var(--pad) * 10);
   bottom: calc(var(--pad) * 1.7);
 }
 
 .icon {
+  position: absolute;
+  right: calc(var(--pad) * 1);
   display: inline-block;
   vertical-align: middle;
 }
@@ -44,6 +46,8 @@
   }
 
   .icon {
+    position: relative;
+    right: calc(var(--pad) * 1);
     display: inline-block;
     vertical-align: middle;
   }
