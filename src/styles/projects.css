@@ -44,6 +44,11 @@
   vertical-align: middle;
 }
 
+.projectDescription {
+  max-width: 10vw;
+  font-size: 18px;
+}
+
 .project img.github {
   display: none;
   opacity: 0;
@@ -59,7 +64,8 @@
 
 .container {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
+  margin-left: calc(var(--pad) * 14);
 }
 
 .preview {
