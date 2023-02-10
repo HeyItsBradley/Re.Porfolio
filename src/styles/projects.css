@@ -65,8 +65,8 @@
 
 .container {
   display: flex;
-  justify-content: flex-start;
-  margin-left: calc(var(--pad) * 14);
+  justify-content: flex-end;
+  margin-right: calc(var(--pad) * 18);
 }
 
 .preview {
@@ -94,7 +94,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-left: initial;
+    margin-right: initial;
   }
   .projectDescription {
     text-align: center;
