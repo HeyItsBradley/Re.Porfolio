@@ -47,6 +47,7 @@
 .projectDescription {
   max-width: 10vw;
   font-size: 18px;
+  margin-right: 10px;
 }
 
 .project img.github {
@@ -88,6 +89,19 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   /* styles for small screens go here */
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: initial;
+  }
+  .projectDescription {
+    text-align: center;
+    max-width: 80vw;
+    font-size: 18px;
+    margin-right: 10px;
+  }
   .preview {
     top: 40vh;
     opacity: 50%;
@@ -105,11 +119,11 @@
     padding: 0;
     right: initial;
     bottom: initial;
-    top: 100vw;
+    top: 67vh;
   }
   .project {
     position: relative;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     transition: all 500ms;
     z-index: 6;
     white-space: nowrap;
@@ -117,7 +131,7 @@
   }
 
   .project:hover {
-    font-size: 2rem;
+    font-size: 1.6rem;
     font-size-adjust: 10px;
     color: rgb(255, 255, 255);
   }
