@@ -24,6 +24,8 @@ npm i, npm run start.
 
 https://bradley-rodriguez-portfolio.herokuapp.com/#/
 
+![alt](./demo.png)
+
 You can use the app by the link in this README file or the environment tab on github. Navigate the site by using the Home, resume, project, and contact tabs on the site.
 
 ## How to Contribute
