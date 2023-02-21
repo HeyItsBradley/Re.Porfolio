@@ -32,9 +32,6 @@ You can use the app by the link in this README file or the environment tab on gi
 
 Feel free to take any ideas !
 
-## Tests
-
-n/a
 
 ## Questions?
 
